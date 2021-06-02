@@ -1,6 +1,6 @@
 # Creation of the table covid_deaths where insert data with Wizard. As well creation of covid_vaccinations schema.
 
-CREATE TABLE covid_death (iso_code CHAR(3) PRIMARY KEY,
+CREATE TABLE covid_deaths (iso_code CHAR(3) PRIMARY KEY,
                            continent VARCHAR(20),
                            location VARCHAR(20),
                            date DATE,
